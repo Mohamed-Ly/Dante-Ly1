@@ -189,9 +189,13 @@ ul {
 }
 @media (max-width: 767px) {
     .header form .search {
-        border-radius: 0 40px 40px 0;
+        border-radius: 40px 0 0px 40px;
         margin-bottom: 20px;
         margin-left: -3px;
+        padding: 0 10px;
+    }
+    .header form .select-opt {
+        display: none;
     }
 }
 .header form .button {
@@ -204,11 +208,6 @@ ul {
     font-size: 15px;
     height: 40px;
     cursor: pointer;
-}
-@media (max-width: 767px) {
-    .header form .button {
-        border-radius: 50px;
-    }
 }
 .header .info {
     display: flex;
@@ -655,7 +654,7 @@ ul {
     margin: 10px 0 30px;
 }
 .subscribe .text p {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 400;
     margin: 0 10px 0 0;
     color: #15161D;
