@@ -83,14 +83,8 @@ section#overlay aside .contact .social a {
     color: black;
 }
 section#overlay aside .contact .social i {
-    padding: 9px 13px;
     margin: 0px 12px;
     font-size: 19px;
-    border: 1px solid #1aa6b74d;
-    border-radius: 50%;
-}
-section#overlay aside .contact .social .google-efc i {
-    padding: 9px;
 }
 section#overlay aside .details {
     text-align: center;
