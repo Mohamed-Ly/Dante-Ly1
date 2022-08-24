@@ -73,16 +73,17 @@ section#overlay aside h2 {
     align-items: center;
     font-size: 28px;
 }
-section#overlay aside .contact .social {
+section#overlay aside .contact ul {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    list-style: none;
 }
-section#overlay aside .contact .social a {
+section#overlay aside .contact ul a {
     color: black;
 }
-section#overlay aside .contact .social i {
+section#overlay aside .contact ul i {
     margin: 0px 12px;
     font-size: 19px;
 }
